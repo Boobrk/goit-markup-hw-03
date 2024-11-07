@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio</title>
-
     <link 
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -16,35 +14,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link 
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet" 
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>Web Studio</title>
 </head>
  <body>
      <header class="page-head">
-        <div class="page-head-container container">
+        <div class="container container-page-head">
          <nav class="header-nav">
-            <a class="logo header-logo" href="./index.html">Web<span  class="logo-part">Studio</span></a>
+            <a href="./index.html" class="logo"
+            >Web<span  class="logo-part">Studio</span></a>
              <ul class="nav-list">
-                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Studio</a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" href="">Portfolio</a>
-                 </li>
-                 <li class="nav-item">
-                     <a class="nav-link" href="">Contacts</a>
-                 </li>
+                 <li><a class="nav" href="./index.html">Studio</a></li>
+                 <li><a class="nav" href="./index.html">Portfolio</a></li>
+                 <li><a class="nav" href="./index.html">Contacts</a></li>
              </ul>
          </nav>
-         
          <address class="mail-tel">
-             <ul class="address-list">
-                 <li class="adres-item">
+             <ul>
+                 <li>
                      <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                  </li>
-                 <li class="adres-item">
+                 <li>
                      <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                  </li>
              </ul>
@@ -53,7 +46,6 @@
      </header>
 
      <main>
-        
         <section class="section-one">
             <div class="container">
              <h1 class="section-one-text">Effective Solutions for Your Business</h1>
@@ -63,7 +55,7 @@
 
         <section class="section-two">
          <div class="container">
-            <h2 class="text-heading visually-hidden">Benefits</h2>
+            <h2 class="visually-hidden">Benefits</h2>
             <ul class="text-list">
                 <li class="text-item">
                     <h3 class="section-two-h">Strategy</h3>
@@ -98,36 +90,46 @@
         </section>
 
          <section class="our-team">
+            <div class="container">
              <h2 class="title-section">Our Team</h2>
-             <ul>
+             <ul class="our-team-ul">
                  <li class="our-team-list">
                      <img src="images/Mark_Guerrero.jpg" width="264" 
                     height="260" alt="Mark Guerrero" />
+                    <div class="name-people">
                      <h3 class="our-team-etem">Mark Guerrero</h3>
                      <p class="our-team-text">Product Designer</p>
+                    </div>
                  </li>
                  <li class="our-team-list">
                      <img src="images/Tom_Ford.jpg" 
                      width="264" height="260" 
                      alt="Tom Ford" />
+                    <div class="name-people">
                      <h3 class="our-team-etem">Tom Ford</h3>
                      <p class="our-team-text">Frontend Developer</p>
+                    </div>
                  </li>
                  <li class="our-team-list">
                     <img src="images/Camila_Garcia.jpg" width="264" 
                     height="260"
                     alt="Camila Garcia">
+                    <div class="name-people">
                      <h3 class="our-team-etem">Camila Garcia</h3>
                      <p class="our-team-text">Marketing</p>
+                    </div>
                  </li>
                  <li class="our-team-list">
                      <img src="images/Daniel_Wilson.jpg" width="264" 
                     height="260" 
                     alt="Daniel Wilson">
+                    <div class="name-people">
                      <h3 class="our-team-etem">Daniel Wilson</h3>
                      <p class="our-team-text">UI Designer</p>
+                    </div>
                  </li>
              </ul>
+            </div>
          </section>
 
          <section class="portfolio">
