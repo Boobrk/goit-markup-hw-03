@@ -9,7 +9,7 @@ body {
 }
 
   h1,h2,h3,h4,h5,p {
-  margin: 0;
+    margin: 0;
   }
 
   img {
@@ -40,7 +40,7 @@ body {
 
   .page-head{
     border-bottom: 1px solid #e7e9fc;
-   }
+  }
 
    .container {
     width: 1158px;
@@ -109,11 +109,16 @@ body {
 
   .mail-tel ul {
     display: flex;
-    gap: 20px;
+    gap: 40px;
   }
 
   .mail-tel ul li{
     margin: 0;
+    margin-right: 40p
+  }
+
+  .mail-tel li:last-child{
+    margin-right: 0
   }
 
 
@@ -328,6 +333,7 @@ body {
     bottom: 1px solid #e7e9fc;
     border-top: none;
   }
+
 
 /*Секция 5(Ласт футер)*/
 
