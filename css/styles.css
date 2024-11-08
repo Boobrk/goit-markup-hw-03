@@ -52,7 +52,6 @@ body {
   .container-page-head {
     align-items: center;
     display: flex;
-    padding: 0 15px;
   }
 
   .header-nav {
@@ -118,7 +117,7 @@ body {
     margin-right: 40px;
   }
 
-  .contact-info li:last-child {
+  .contact-info li:last-child{
     margin-right: 0
   }
 
