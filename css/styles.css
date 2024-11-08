@@ -159,6 +159,8 @@ body {
 
   .section-one-button{
     font-weight: 500;
+    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     font-size: 16px;
     line-height: 1.5;
@@ -167,11 +169,11 @@ body {
     color: #ffffff;
     border: none;
     border-radius: 4px;
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    display: block;
   }
 
   .section-one-button:hover {
