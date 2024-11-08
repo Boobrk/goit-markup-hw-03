@@ -106,6 +106,7 @@ body {
     gap: 40px;
     margin-right: auto;
     margin-left: auto;
+    padding: 0 15px;
   }
 
   .contact-info ul {
