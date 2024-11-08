@@ -54,6 +54,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: flex-start;
+    padding: 0 15px;
   }
 
   .header-nav {
