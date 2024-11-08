@@ -109,7 +109,7 @@ body {
 
   .contact-info ul {
     display: flex;
-    gap: 40px;
+    gap: 20px;
   }
 
   .contact-info ul li{
