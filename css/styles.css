@@ -183,7 +183,7 @@ body {
 
 /*Секция 2 (Перечесление преимуществ перед людьми)*/
 
-  .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -196,7 +196,8 @@ body {
   }
 
   .section-two{
-    padding: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -312,7 +313,8 @@ body {
   }
   
   .name-people{
-    padding: 32px;
+    padding: 32px 0;
+    margin-bottom: 8px
   }
 
 
