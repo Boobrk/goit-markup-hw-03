@@ -99,7 +99,7 @@ body {
     color: #404bbf;
   }
 
-  .mail-tel {
+  .contact-info {
     display: flex;
     font-style: normal;
     gap: 40px;
@@ -107,17 +107,17 @@ body {
     margin-left: auto;
   }
 
-  .mail-tel ul {
+  .contact-info ul {
     display: flex;
     gap: 40px;
   }
 
-  .mail-tel ul li{
+  .contact-info ul li{
     margin: 0;
     margin-right: 40p
   }
 
-  .mail-tel li:last-child{
+  .contact-info li:last-child{
     margin-right: 0
   }
 
