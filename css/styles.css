@@ -132,6 +132,11 @@ body {
     color: #404bbf;
   }
 
+  .contact-list {
+    display: flex; 
+    gap: 40px;
+  }
+
 
 
 /*Секция 1 (мейн беграунд с кнопкой)*/
