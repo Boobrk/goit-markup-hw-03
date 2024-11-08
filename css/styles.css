@@ -340,10 +340,12 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
   }
 
-  .project-item{
-    width: calc((100%-48px) / 3);
+  .project-item:first-child{
+    width: calc((100% - 48px) / 3);
   }
 
   .portfolio-div {
