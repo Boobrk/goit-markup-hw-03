@@ -110,16 +110,13 @@ body {
 
   .address ul {
     display: flex;
-    gap: 40px;
+    gap: 20px;
   }
 
   .address ul li{
     margin: 0;
   }
 
-  .address li:last-child{
-    margin-right: 0
-  }
 
 
   .contacts-link { 
