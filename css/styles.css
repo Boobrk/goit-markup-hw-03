@@ -65,6 +65,10 @@ body {
   
   }
 
+  header.page-head {
+    padding: 0 15px;
+  }
+
   nav ul {
     display: flex;
   }
