@@ -118,6 +118,10 @@ body {
     gap: 40px;
   }
 
+  .contact-list {
+    padding: 0 15px;
+  }
+
   .address ul {
     display: flex;
     gap: 40px;
