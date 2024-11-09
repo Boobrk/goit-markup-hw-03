@@ -43,12 +43,13 @@ body {
     border-bottom: 1px solid #e7e9fc;
   }
 
-   .container {
+  .container {
+    max-width: 100%;
     width: 1158px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
-  }
-
+}
   .header-container {
     align-items: center;
     display: flex;
