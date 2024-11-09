@@ -362,9 +362,8 @@ body {
     flex-wrap: wrap;
   }
 
-  .project-item {
+  .project-item{
     width: calc((100% / 3) - 16px); 
-    box-sizing: border-box;
   }
 
   .portfolio-div {
