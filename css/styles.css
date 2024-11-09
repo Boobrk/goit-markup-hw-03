@@ -213,8 +213,6 @@ body {
     flex-wrap: wrap;
   }
 
-
-
   .text-list {
     display: flex;
     gap: 24px;
@@ -321,6 +319,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px
   }
   
   .name-people{
