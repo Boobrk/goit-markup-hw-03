@@ -369,10 +369,6 @@ body {
 
   .project-item{
     width: calc((100% - 48px) / 3);
-    display: block;
-    box-sizing: border-box;
-    margin-bottom: 48px;
-    padding: 0;
   }
 
   .project-item:nth-last-child(-n+3) {
