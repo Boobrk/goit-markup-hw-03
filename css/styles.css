@@ -367,7 +367,7 @@ body {
     flex-wrap: wrap;
   }
 
-  .project-item {
+  .project-item:first-child {
     width: calc((100% - 48px) / 3);
     display: block;
     margin-bottom: 48px;
