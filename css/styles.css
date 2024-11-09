@@ -336,6 +336,7 @@ body {
 
   .portfolio {
     padding: 120px 0;
+    display: flex;
   }
 
   .portfolio-title{
@@ -355,7 +356,7 @@ body {
   }
 
   .project-list{
-    display: flex;
+    display:inline-flex;
     column-gap: 24px;
     row-gap: 48px;
     gap: 24px;
