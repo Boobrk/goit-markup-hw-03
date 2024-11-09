@@ -358,7 +358,6 @@ body {
   .project-list{
     display: flex;
     column-gap: 24px;
-    row-gap: 48px;
     gap: 24px;
     margin: 0;
     padding: 0;
