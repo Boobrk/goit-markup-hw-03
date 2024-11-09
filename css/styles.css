@@ -117,9 +117,6 @@ body {
     gap: 40px;
   }
 
-  .contact-list {
-    padding: 0 15px;
-  }
 
   .address ul {
     display: flex;
@@ -314,6 +311,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
+    margin-bottom: 8px;
   }
 
   .our-team-text{
