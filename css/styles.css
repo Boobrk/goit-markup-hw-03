@@ -46,12 +46,11 @@ body {
 
    .container {
     max-width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
   }
 
   .header-container {
-    padding: 0 15px;
     align-items: center;
     display: flex;
     justify-content: flex-start;
@@ -65,9 +64,6 @@ body {
   
   }
 
-  header.page-head {
-    padding: 0 15px;
-  }
 
   nav ul {
     display: flex;
