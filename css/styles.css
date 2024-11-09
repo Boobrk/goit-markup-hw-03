@@ -356,6 +356,7 @@ body {
   }
 
   .project-list{
+    display: flex;
     column-gap: 24px;
     row-gap: 48px;
     gap: 24px;
@@ -365,7 +366,7 @@ body {
     box-sizing: border-box;
     flex-wrap: wrap;
   }
-  
+
   .project-item {
     width: calc((100% - 48px) / 3);
     display: block;
