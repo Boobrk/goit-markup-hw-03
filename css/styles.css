@@ -336,7 +336,6 @@ body {
 
   .portfolio {
     padding: 120px 0;
-    display: flex;
   }
 
   .portfolio-title{
@@ -356,7 +355,7 @@ body {
   }
 
   .project-list{
-    display:inline-flex;
+    display: flex;
     column-gap: 24px;
     row-gap: 48px;
     gap: 24px;
@@ -369,6 +368,10 @@ body {
 
   .project-item{
     width: calc((100% - 48px) / 3);
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 48px;
+    padding: 0;
   }
 
   .project-item:nth-last-child(-n+3) {
