@@ -367,10 +367,13 @@ body {
     flex-wrap: wrap;
   }
 
-  .project-item{
-    width: calc((100% - 48px) / 3);
+  .project-item {
     display: block;
     margin-bottom: 48px;
+  }
+
+  .project-item:first-child {
+    width: calc((100% - 48px) / 3);
   }
 
   .project-item:nth-last-child(-n+3) {
