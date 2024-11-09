@@ -353,6 +353,8 @@ body {
   .container {
     padding: 16px;
     box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   .project-list{
