@@ -41,7 +41,6 @@ body {
 
   .page-head{
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 15px;
   }
 
    .container {
@@ -64,9 +63,6 @@ body {
   
   }
 
-  header.page-head {
-    padding: 0 15px;
-  }
 
   nav ul {
     display: flex;
