@@ -41,6 +41,7 @@ body {
 
   .page-head{
     border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
   }
 
    .container {
@@ -63,6 +64,9 @@ body {
   
   }
 
+  header.page-head {
+    padding: 0 15px;
+  }
 
   nav ul {
     display: flex;
@@ -349,6 +353,8 @@ body {
   .project-list{
     display: flex;
     column-gap: 24px;
+    row-gap: 48px;
+    gap: 24px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -357,8 +363,8 @@ body {
   }
 
   .project-item {
-    flex: 1 1 calc(33.3333% - 24px);
-    display: block;
+    width: calc((100% / 3) - 16px); 
+    box-sizing: border-box;
   }
 
   .portfolio-div {
