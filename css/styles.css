@@ -354,7 +354,6 @@ body {
     display: flex;
     column-gap: 24px;
     row-gap: 48px;
-    gap: 24px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -362,8 +361,8 @@ body {
     flex-wrap: wrap;
   }
 
-  .project-item{
-    width: calc((100% / 3) - 16px); 
+  .project-item {
+    width: calc((100% - 48px) / 3);
   }
 
   .portfolio-div {
