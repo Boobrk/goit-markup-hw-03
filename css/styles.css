@@ -356,7 +356,6 @@ body {
   }
 
   .project-list{
-    display: flex;
     column-gap: 24px;
     row-gap: 48px;
     gap: 24px;
@@ -365,14 +364,12 @@ body {
     list-style: none;
     box-sizing: border-box;
     flex-wrap: wrap;
-    overflow-x: auto;
   }
-
+  
   .project-item {
     width: calc((100% - 48px) / 3);
     display: block;
     margin-bottom: 48px;
-    flex-shrink: 0;
   }
 
   .project-item:nth-last-child(-n+3) {
