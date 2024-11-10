@@ -47,8 +47,7 @@ body {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    width:100%
-
+    width: 100%;
   }
 
   .header-container {
@@ -56,6 +55,12 @@ body {
     display: flex;
     justify-content: flex-start;
   }
+
+  .header-container .container {
+    display: flex;
+    align-items: center;
+  }
+
 
   .header-nav {
     display: flex;
