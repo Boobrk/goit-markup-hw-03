@@ -368,6 +368,10 @@ body {
     gap: 24px;
   }
 
+  .project-item:first-child {
+    width: calc((100% - 48px) / 3);
+  }
+
   
 
   .portfolio-div {
