@@ -357,28 +357,36 @@ body {
 
   .project-list{
     display: flex;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;  
   }
 
   .project-item{
     width: calc((100% - 48px) / 3);
     text-align: left;
     gap: 24px;
-    box-sizing: border-box;
+  }
+
+  .project-list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .project-item {
+    margin: 0;
+    padding: 0;
   }
 
   .project-item img {
     width: 100%;
     height: auto;
   }
-
-  .container, .project-list {
-    width: 100%;
-    box-sizing: border-box;
-  }
   
+
   .portfolio-div {
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
