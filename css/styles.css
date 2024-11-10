@@ -362,13 +362,28 @@ body {
     flex-wrap: wrap;
   }
 
-  .project-item{
-    text-align: left;
-    gap: 24px;
+  .project-item img {
+    width: 100%;
+    height: auto;
   }
 
-  .project-item:first-child{
+  .project-item{
     width: calc((100% - 48px) / 3);
+    text-align: left;
+    gap: 24px;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+    .project-item {
+        width: calc((100% - 24px) / 2);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .project-item {
+        width: 100%;
+    }
   }
 
 
