@@ -362,10 +362,13 @@ body {
     flex-wrap: wrap;
   }
 
-  .project-item {
-    width: calc((100% - 48px) / 3);
+  .project-item{
     text-align: left;
     gap: 24px;
+  }
+
+  .project-item:first-child{
+    width: calc((100% - 48px) / 3);
   }
 
 
